@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Validating amazon home(failed)">
+    <classes>
+      <class name="Structured.DataPattern.AmazonHomeTest">
+        <methods>
+          <include name="AmazonHomePage"/>
+          <include name="Launch"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Structured.DataPattern.AmazonHomeTest -->
+    </classes>
+  </test> <!-- Validating amazon home(failed) -->
+</suite> <!-- Failed suite [Suite] -->
